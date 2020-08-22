@@ -1,10 +1,12 @@
 import React from 'react';
 
+import CardContainer from '../CardContainer/CardContainer';
+
 
 const MainContainer = () => {
     return (
         <div>
-            this is main page
+            <CardContainer/>
         </div>
     );
 }
